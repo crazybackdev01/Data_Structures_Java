@@ -70,6 +70,10 @@ class Stack {
             return true;
         return false;
     }
+
+    public int capacity() {
+        return this.arr.length;
+    }
 }
 
 public class ArrayStack {
