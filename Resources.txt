@@ -1,0 +1,35 @@
+
+
+1. **LeetCode**: Offers daily coding challenges and a wide range of problems that can help improve your algorithmic thinking and coding skills. They also have mock interviews and company-specific problems.
+
+   Website: [LeetCode](https://leetcode.com/)
+
+2. **HackerRank**: Provides coding challenges across various domains, including algorithms, data structures, artificial intelligence, and databases. They also have a section for projects where you can work on real-world problems.
+
+   Website: [HackerRank](https://www.hackerrank.com/)
+
+3. **Codewars**: A platform where you can solve coding challenges (called "kata") of varying difficulty. It also allows you to see other users' solutions and discuss different approaches.
+
+   Website: [Codewars](https://www.codewars.com/)
+
+4. **Project Euler**: Focuses on mathematical and computational problems that require more than just coding skills. It’s great for improving problem-solving and logical thinking.
+
+   Website: [Project Euler](https://projecteuler.net/)
+
+5. **Exercism**: Provides exercises in over 50 programming languages, including JavaScript and Java. It’s a great way to improve both your coding and problem-solving skills.
+
+   Website: [Exercism](https://exercism.io/)
+
+6. **DevProjects by Codementor**: Offers free, curated projects that you can work on to build your skills. The projects come with detailed guidelines and cover various aspects of web development, mobile development, and more.
+
+   Website: [DevProjects](https://www.codementor.io/projects)
+
+7. **FreeCodeCamp**: Offers a comprehensive curriculum that includes numerous projects to help you build and demonstrate your skills. They cover web development, data visualization, machine learning, and more.
+
+   Website: [FreeCodeCamp](https://www.freecodecamp.org/)
+
+8. **The Odin Project**: Provides a full-stack curriculum with project-based learning. It's great for getting hands-on experience with real-world projects.
+
+   Website: [The Odin Project](https://www.theodinproject.com/)
+
+These platforms will help you practice coding regularly and build projects to enhance your skills.
