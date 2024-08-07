@@ -1,7 +1,5 @@
 package Stacks;
 
-import java.util.ArrayList;
-
 /*
 class Stack<T> {
     int STACK_SIZE;
