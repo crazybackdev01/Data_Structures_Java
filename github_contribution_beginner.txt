@@ -1,0 +1,69 @@
+
+
+### Steps to Find Beginner-Friendly Repositories
+
+1. **Search GitHub Topics:**
+   - Use GitHub's search functionality to find repositories tagged with labels like `good-first-issue`, `beginner`, `first-timers-only`, or `help-wanted`.
+   - Example search queries:
+     - `label:"good first issue"`
+     - `label:"beginner"`
+     - `label:"first-timers-only"`
+     - `label:"help wanted"`
+
+2. **Explore Collections:**
+   - GitHub has curated collections of repositories that are beginner-friendly.
+   - Visit [github.com/collections](https://github.com/collections) and look for collections like "Open source projects for beginners."
+
+3. **Use Third-Party Platforms:**
+   - Several websites aggregate beginner-friendly issues from GitHub and present them in a more accessible format. Some popular ones include:
+     - **Up For Grabs**: [up-for-grabs.net](https://up-for-grabs.net/)
+     - **Good First Issues**: [goodfirstissues.com](https://goodfirstissues.com/)
+     - **First Timers Only**: [firsttimersonly.com](https://www.firsttimersonly.com/)
+
+4. **Follow GitHub Users and Organizations:**
+   - Many developers and organizations tag their issues with labels that indicate they are suitable for beginners. Following them can help you stay updated on new opportunities.
+
+5. **Join Open Source Communities:**
+   - Communities like [DEV](https://dev.to/), [Hashnode](https://hashnode.com/), and [Reddit](https://www.reddit.com/r/opensource/) often share beginner-friendly repositories and opportunities for contributions.
+
+### Example Repositories to Get Started
+
+Here are a few repositories known for being beginner-friendly:
+
+1. **EddieHubCommunity Support**: A community-driven project that welcomes contributions from developers of all levels.
+   - GitHub: [EddieHubCommunity Support](https://github.com/EddieHubCommunity/support)
+
+2. **First Contributions**: A project that guides you through making your first contribution.
+   - GitHub: [First Contributions](https://github.com/firstcontributions/first-contributions)
+
+3. **Public APIs**: A collective list of free APIs for use in software and web development.
+   - GitHub: [Public APIs](https://github.com/public-apis/public-apis)
+
+4. **Realworld**: Exemplary full-stack applications, written in various languages.
+   - GitHub: [Realworld](https://github.com/gothinkster/realworld)
+
+5. **Awesome for Beginners**: A list of awesome beginners-friendly projects.
+   - GitHub: [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners)
+
+### Using GitHub's Search Function
+
+Here is how you can use GitHub’s advanced search to find repositories:
+
+1. **Navigate to GitHub Search**: Go to [GitHub Advanced Search](https://github.com/search/advanced).
+2. **Set the Filters**:
+   - **Keywords**: Use keywords like `good-first-issue`, `help-wanted`, `beginner`, etc.
+   - **Stars**: Repositories with more stars tend to be more active.
+   - **Language**: Specify the programming language you are comfortable with.
+   - **Issues**: Look for repositories with open issues to ensure they need contributions.
+
+### Example Search URL
+
+To find JavaScript repositories with good first issues, you can use the following search URL:
+
+```
+https://github.com/search?q=label%3A%22good+first+issue%22+language%3AJavaScript&type=Repositories
+```
+
+This search URL looks for repositories labeled with `good first issue` in JavaScript.
+
+By following these steps and utilizing the resources mentioned, you should be able to find many beginner-friendly repositories that suit your interests and skill level.
