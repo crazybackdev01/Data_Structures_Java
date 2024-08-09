@@ -22,8 +22,10 @@ public class Basicsll {
     }
 
     public static void traverseListRecursively(Nodelocal head) {
-        if (head == null)
+        if (head == null) {
+            System.out.println();
             return;
+        }
         System.out.print(head.data + "-> ");
         traverseListRecursively(head.next);
     }
