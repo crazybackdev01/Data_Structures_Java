@@ -29,5 +29,6 @@ public class ToggleBuilder {
         }
 
         System.out.println(str);
+        sc.close();
     }
 }
