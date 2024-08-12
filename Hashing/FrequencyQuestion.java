@@ -19,12 +19,18 @@ public class FrequencyQuestion {
         // let max frequency be of arr[0]
         int maxFrequency = map.get(arr[0]);
         int element = arr[0];
+
+        // By Traversing the array
         for (int i = 0; i <= arr.length - 1; i++) {
             if (maxFrequency < map.get(arr[i])) {
                 maxFrequency = map.get(arr[i]);
                 element = arr[i];
             }
         }
+
+        // By Traversing the HashMap by entrySet
+        // By Traversing the HashMap by keySet
+
         System.out.println("Maximum frequency is " + maxFrequency + " and Element with Most frequency is " + element);
     }
 }

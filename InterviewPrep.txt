@@ -1,0 +1,98 @@
+SWE Internship - takeUforward
+We are hiring for an exciting role at takeUforward: Software Engineering Intern (2026 Graduation Year). This 4-month internship offers a fantastic opportunity to gain hands-on experience on an edtech platform with real-world impact, working across our technology stack.
+
+About Us:
+takeUforward is a rapidly growing edtech platform dedicated to helping millions of students and professionals across India prepare for technical interviews and advance their careers. Our platform offers curated problem sets, video tutorials, editorials, coding contests, and AI-driven tools to enhance learning and skill development.
+
+Minimum Qualifications:
+Basic knowledge of React, Node.js, MySQL, and AWS.
+Enthusiasm for both frontend and backend development.
+Strong problem-solving skills and a willingness to learn and apply new technologies.
+Applicants must be 2026 graduates with a B.Tech or a similar degree.
+As a Software Engineering Intern at TakeUForward, you will:
+Feature Development: Start with beginner-level tasks and gradually work on both frontend (React) and backend (Node.js) features, contributing to our platform's growth.
+Learning & Growth: Engage in learning opportunities, such as pair programming with experienced developers and receiving regular feedback to help you improve your skills.
+Code Quality: Learn about code reviews, best practices, and testing methodologies to maintain high code quality.
+Collaboration: Work closely with cross-functional teams to gain insights into the full development lifecycle.
+Exposure to DevOps: Get hands-on experience with our cloud infrastructure on AWS, understanding how we manage and deploy our applications.
+Round Details:
+First Round: Complete the given task below
+
+Task: Build a Flashcard Learning Tool with React
+
+Your task is to create a simple flashcard learning tool using React, focusing on basic features:
+
+Website Layout:
+
+Design a clean, simple interface where users can flip through a set of flashcards.
+Flashcard Functionality:
+
+Display Flashcards: Present flashcards one at a time, with a question or term on the front and the answer or definition on the back.
+Flip Card: Implement a feature that allows users to click on a flashcard to flip it and reveal the answer.
+Next/Previous Navigation: Allow users to navigate through the set of flashcards using "Next" and "Previous" buttons.
+Internal Dashboard:
+
+Create a basic internal dashboard where an admin can:
+Add Flashcards: Insert new flashcards, including the question and answer.
+Edit Flashcards: Update the content of existing flashcards.
+Delete Flashcards: Remove flashcards from the set.
+Database Integration:
+
+Use MySQL to store the flashcards, including the question and answer. The application should retrieve and update this information in the database.
+Second Round: DSA + Project Discussion
+
+Stipend Offered: 20K per month (Remote)
+
+For the first round, please submit your task using the form below. The deadline for submission is Monday (12th August midnight).
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// FULL_TIME SOFTWARE ENGINEER:-
+We are hiring for an exciting role at takeUforward:  Full-Time Software Engineer (2024 Graduation Year). The role offers the opportunity to work on a edtech platform with real-world impact, gaining hands-on experience across our technology stack.
+
+
+
+About us: https://takeuforward.org/about-us 
+
+Minimum Qualifications
+
+Projects in React, Node.js, MySQL, and AWS.
+Experience in both frontend and backend development.
+Excellent problem-solving skills and the ability to think critically about design and architecture.
+A proactive approach to learning and applying new technologies.
+Applicants must be 2024 graduates with a B.Tech or a similar degree to be eligible for this position.
+As a full-time full-stack engineer at takeUforward, you will have the opportunity to shape the future of our platform. Your role will involve:
+
+End-to-End Development: Take ownership of features from concept to deployment, working across both frontend (React) and backend (Node.js) to build robust, scalable solutions.
+Product Contribution: Participate actively in product design discussions, contributing ideas and feedback that drive the direction of our platform.
+Code Review & Quality Assurance: Conduct code reviews and ensure that best practices are followed to maintain high code quality.
+Performance Optimization: Analyze and optimize application performance, identifying bottlenecks and improving the efficiency of both frontend and backend systems.
+Collaboration: Work closely with cross-functional teams, including product managers, designers, and other engineers, to deliver high-quality features on time.
+Mentorship: Guide junior engineers and interns, sharing your knowledge and experience to help them grow.
+Innovation: Stay up-to-date with the latest technologies and trends, bringing new ideas to the table that can improve our platform and processes.
+
+Round details: 
+
+First round: Complete the given task below 
+Task: Build a Dynamic One-Page Website with React
+
+Your task is to create a dynamic one-page website using React, which includes the following features:
+
+Website Layout:
+
+Design a simple, clean one-page website that can optionally display a banner. The banner's visibility should be controllable. 
+Frontend Countdown Display: Implement a countdown timer on the banner, displayed as a reverse clock, that shows the remaining time before the banner disappears.
+Internal Dashboard:
+
+Implement an internal dashboard that allows the following controls:
+Banner On/Off: Toggle the visibility of the banner on the main website.
+Banner Description: Update the content of the banner's text.
+Banner Timer: Set a timer to control how long the banner is displayed. Please make sure in the frontend, there should be a reverse clock showing the countdown. 
+Banner Link: Add a clickable link to the banner, directing users to a specified URL
+Database Integration: Use MySQL to store the banner's content, including the description, timer settings, and link. The dashboard should retrieve and update this information in the database.
+
+Second Round: DSA + Project Discussion 
+
+Salary Offered: 5 - 7 LPA (Remote) 
+
+For the first round, please submit your task in the below form, the deadline for submission is Monday (12th August midnight) 

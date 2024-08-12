@@ -9,7 +9,7 @@ class Node {
     }
 }
 
-class Stack {
+class LinkedStack {
 
     Node TOP = null;
     int size = 0;
@@ -40,7 +40,7 @@ class Stack {
 
 public class LinkedStacks {
     public static void main(String[] args) {
-        Stack stack = new Stack();
+        LinkedStack stack = new LinkedStack();
         System.out.println(stack.size());
         stack.push(2);
         stack.push(3);
