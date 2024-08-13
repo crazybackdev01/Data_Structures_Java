@@ -8,7 +8,7 @@ public class Implementation {
 
         public static final int DEFAULT_CAPACITY = 4;
         public static final float DEFAULT_LOAD_FACTOR = 0.4f;
-        private int n; // number of entries in the map
+        private int n; // Number of entries in the map
         private LinkedList<Node>[] buckets;
 
         public OwnHashMap() {
@@ -48,6 +48,21 @@ public class Implementation {
             return -1;
         }
 
+        private void rehash() {
+            LinkedList<Node>[] oldBuckets = buckets;
+
+            initBuckets(oldBuckets.length * 2);
+            n = 0;
+
+            // To Traverse on the Array of Buckets
+            for (var bucket : oldBuckets) {
+                // To traverse on the LinkedList of bucket
+                for (var node : bucket) {
+                    this.put(node.key, node.value);
+                }
+            }
+        }
+
         public void put(K key, V value) {
             int bi = hashFunc(key);
             LinkedList<Node> currentBucket = buckets[bi];
@@ -61,10 +76,21 @@ public class Implementation {
                 Node currNode = currentBucket.get(elementIndex);
                 currNode.value = value;
             }
+            if (n >= buckets.length * DEFAULT_LOAD_FACTOR) {
+                rehash();
+            }
         }
 
         public int size() {
             return n;
+        }
+
+        public int capacity() {
+            return buckets.length;
+        }
+
+        public float loadFactor() {
+            return (n * 1.0f) / buckets.length;
         }
 
         public V get(K key) {
@@ -94,12 +120,32 @@ public class Implementation {
 
     public static void main(String[] args) {
         OwnHashMap<String, Integer> map = new OwnHashMap<>();
+        System.out.println("Capacity: " + map.capacity());
+        System.out.println("Load factor: " + map.loadFactor());
         map.put("a", 1);
         map.put("b", 2);
         map.put("c", 3);
+        System.out.println("Capacity: " + map.capacity());
+        System.out.println("Load factor: " + map.loadFactor());
         map.put("d", 4);
-
+        System.out.println("Capacity: " + map.capacity());
+        System.out.println("Load factor: " + map.loadFactor());
         System.out.println("Testing size: " + map.size());
         System.out.println("a key: " + map.get("a"));
+
+        map.put("a", 9);
+        map.put("g", 13);
+        System.out.println("a key: " + map.get("a"));
+
+        System.out.println("New Size: " + map.size());
+        map.remove("g");
+        System.out.println("Size after deletion: " + map.size());
+        System.out.println("Capacity: " + map.capacity());
+        System.out.println("Load factor: " + map.loadFactor());
+        map.put("h", 10);
+        map.put("k", 110);
+        System.out.println("Size after new Insertion: " + map.size());
+        System.out.println("Capacity: " + map.capacity());
+        System.out.println("Load factor: " + map.loadFactor());
     }
 }
