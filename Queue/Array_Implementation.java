@@ -74,6 +74,7 @@ public class Array_Implementation {
 
         queue.display(); // 1 2 3 4 5
         System.out.println(queue.remove()); // 1
-
+        System.out.println(queue.remove()); // 2
+        queue.display(); // 3 4 5
     }
 }
