@@ -13,6 +13,7 @@ public class Basics {
         queue.add(3);
         queue.add(4);
         queue.add(5);
+        System.out.println(queue.peek());
 
         System.out.println(queue);
         System.out.println(queue.poll());
