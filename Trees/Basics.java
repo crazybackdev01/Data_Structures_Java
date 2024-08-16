@@ -1,5 +1,7 @@
 package Trees;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 class Node {
@@ -33,6 +35,72 @@ class BinaryTree {
         newNode.right = createTree(sc);
         return newNode;
     }
+
+    public void display() {
+        System.out.println("Preorder Traversal: ");
+        preorderTraversal(this.root);
+        System.out.println();
+        System.out.println("Inorder Traversal: ");
+        inorderTraversal(root);
+        System.out.println();
+        System.out.println("Postorder Traversal: ");
+        postorderTraversal(root);
+        System.out.println();
+        System.out.println("Level Order Traversal: ");
+        levelorderTraversal(root);
+    }
+
+    private void preorderTraversal(Node root) {
+        // Base case
+        if (root == null) {
+            return;
+        }
+
+        System.out.print(root.data + " ");
+        preorderTraversal(root.left);
+        preorderTraversal(root.right);
+    }
+
+    private void inorderTraversal(Node root) {
+        // Base case
+        if (root == null) {
+            return;
+        }
+
+        inorderTraversal(root.left);
+        System.out.print(root.data + " ");
+        inorderTraversal(root.right);
+    }
+
+    private void postorderTraversal(Node root) {
+        // Base case
+        if (root == null) {
+            return;
+        }
+
+        postorderTraversal(root.left);
+        postorderTraversal(root.right);
+        System.out.print(root.data + " ");
+    }
+
+    private void levelorderTraversal(Node root) {
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+            Node f = queue.poll();
+            System.out.print(f.data + " ");
+
+            if (f.left != null) {
+                queue.offer(f.left);
+            }
+            if (f.right != null) {
+                queue.offer(f.right);
+            }
+        }
+        System.out.println();
+        return;
+    }
 }
 
 public class Basics {
@@ -41,5 +109,7 @@ public class Basics {
         System.out.println(tree.root.data);
         System.out.println(tree.root.left.data);
         System.out.println(tree.root.right.data);
+
+        tree.display();
     }
 }

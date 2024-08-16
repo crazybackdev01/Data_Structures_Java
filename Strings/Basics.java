@@ -13,8 +13,8 @@ public class Basics {
         // System.out.println(st1.charAt(0));
         // System.out.println(st2.length());
 
-        char ch = st1.charAt(0);
-        int n = st2.length();
+        // char ch = st1.charAt(0);
+        // int n = st2.length();
 
         /*
          * 
