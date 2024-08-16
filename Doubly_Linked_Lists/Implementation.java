@@ -63,12 +63,43 @@ public class Implementation {
         while (temp.previous != null) {
             temp = temp.previous;
         }
-        Node head = temp;
-        while (head != null) {
-            System.out.print(head.data + " ");
-            head = head.next;
+        while (temp != null) {
+            System.out.print(temp.data + " ");
+            temp = temp.next;
         }
         System.out.println();
+    }
+
+    static Node insertAtHead(Node head, int data) {
+        Node newNode = new Node(data);
+        newNode.next = head;
+        head.previous = newNode;
+        head = newNode;
+        return newNode;
+    }
+
+    static Node insertAtTail(Node head, int data) {
+        Node newNode = new Node(data);
+        Node temp = head;
+        while (temp.next != null) {
+            temp = temp.next;
+        }
+        temp.next = newNode;
+        newNode.previous = temp;
+        temp = newNode;
+        return newNode;
+    }
+
+    static void insertAtIndex(Node head, int index, int data) {
+        Node newNode = new Node(data);
+        Node temp = head;
+        for (int i = 0; i < index; i++) {
+            temp = temp.next;
+        }
+        newNode.previous = temp.previous;
+        temp.previous.next = newNode;
+        newNode.next = temp;
+        temp.previous = newNode;
     }
 
     public static void main(String[] args) {
@@ -90,5 +121,12 @@ public class Implementation {
         displayByHead(a);
         displayByTail(e);
         displayByAnyNode(d);
+        Node newHead = insertAtHead(a, 10);
+        displayByHead(newHead);
+        Node newTail = insertAtTail(e, 11);
+        displayByTail(newTail);
+        displayByHead(newHead);
+        insertAtIndex(newHead, 2, 100);
+        displayByHead(newHead);
     }
 }
