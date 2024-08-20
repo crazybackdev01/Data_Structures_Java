@@ -6,7 +6,7 @@ public class MergeSort {
 
     static void mergeSort(int[] array, int start, int end) {
         // Base case
-        if (start == end) {
+        if (start >= end) {
             return;
         }
 
